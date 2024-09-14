@@ -259,13 +259,17 @@
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
-        <div class="column is-full-width">
-          <video autoplay controls muted loop playsinline height="10%">
+        <div class="column">
+          <div class="content has-text-centered">
+          <video autoplay controls muted loop playsinline style="width:75%">
             <source src="./static/videos/replace_skin_vertical.mp4"
                     type="video/mp4"></video>
+          </div>
         </div>
         <div class="column">
-          <img src="./static/images/fig1.png" alt="AnySkin Figure 1"/>
+          <div class="content has-text-centered">
+            <img src="./static/images/anyskin_fig1_portrait.png" alt="AnySkin Figure 1"/>
+          </div>
         </div>
     </div>
 
@@ -282,9 +286,6 @@
           </div>
           <div class="content has-text-centered">
           </div>
-
-
-
         </div>
     </div>
       <!--/ Visual Effects. -->
@@ -293,8 +294,6 @@
       <!-- Policy learning experiments -->
        <div class="column is-full-width">
         <h2 style="margin-bottom: 1em ;" class="title is-3">Policy Learning and Skin Replacability</h2>
-
-
         <div class="content">
           <p>In the videos below, you can see that learned Behavior Cloning policies remain successful for three tasks even when the skin is replaced.</p>
         </div>
@@ -304,7 +303,7 @@
     <div class="columns is-centered">
 
       <div class="column">
-        <div class="content">
+        <div class="content has-text-centered">
           <h3 class="title is-4">Card Swiping</h3>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/card_swiping_trimmed.mp4"
@@ -314,7 +313,7 @@
       </div>
 
       <div class="column">
-        <div class="content">
+        <div class="content has-text-centered">
           <h3 class="title is-4">Plug Insertion</h3>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/plug_insertion_trimmed.mp4"
@@ -326,7 +325,7 @@
 
     <div class="columns is-centered">
       <div class="column">
-        <div class="content">
+        <div class="content has-text-centered">
           <h3 class="title is-4">USB Insertion</h3>
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/usb_insertion_trimmed.mp4"
@@ -335,6 +334,10 @@
         </div>
       </div>
       <div class="column">
+          <h3 class="title is-4">Cross-Instance Generalization Results</h3>
+        <div class="content has-text-centered">
+          <img src="./static/images/cross-instance-generalization.png" alt="Cross-instance Generalization" />
+        </div>
       </div>
     </div>
 
@@ -378,18 +381,18 @@
     </div>
 
     <div class="columns is-centered">
-      <div class="column">
+      <!-- <div class="column">
         <div class="content">
-          <!-- <h3 class="title is-4">Cross-Instance Generalization</h3> -->
           <img src="./static/images/cross-instance-generalization-plot.png" alt="Cross-instance Generalization" />
         </div>
-      </div>
+      </div> -->
       <div class="column">
         <div class="content">
           <!-- <h3 class="title is-4">Comparison Across Sensors -- Plug Insertion</h3> -->
           <img src="./static/images/comparison-across-sensors-plot.png" alt="Comparison across sensors" />
         </div>
       </div>
+      <div class="column"></div>
     </div>
 
     <div class="columns is-centered">
