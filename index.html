@@ -96,6 +96,16 @@
                   <span>arXiv</span>
                 </a>
               </span>
+
+              <span class="link-block">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2QFPVbHiKrqYPMtXfgGx5U77QX-uyZL4DmR-FNW5OXI5Fxw/viewform?usp=header"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                        <i class="fa-solid fa-hand"></i>
+                  </span>
+                  <span>Request a sample!</span>
+                </a>
+              </span>
               <!-- Put a new line-->
               <span class="link-block">
                 <a href="https://github.com/notvenky/eFlesh"
@@ -108,20 +118,10 @@
               </span>
 
               <span class="link-block">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2QFPVbHiKrqYPMtXfgGx5U77QX-uyZL4DmR-FNW5OXI5Fxw/viewform?usp=header"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                        <i class="fa-solid fa-hand"></i>
-                  </span>
-                  <span>Request a sample!</span>
-                </a>
-              </span>
-
-              <span class="link-block">
                 <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                        <i class="fa-solid fa-compass-drafting"></i>
+                        <i class="fa-solid fa-robot"></i>
                   </span>
                   <span>eFlesh for Robots (coming soon)</span>
                 </a>
@@ -133,7 +133,7 @@
                   <span class="icon">
                         <i class="fa-solid fa-pen-ruler"></i>
                   </span>
-                  <span>CAD-to-eFlesh Conversion Kit (coming soon)</span>
+                  <span>CAD2eFlesh Tool (coming soon)</span>
                 </a>
               </span>
             </div>
@@ -234,7 +234,7 @@
         <div class="column is-full">
           <h2 class="title is-3">Visuo-Tactile Policy Learning</h2>
           <div class="content">
-            <p>We perform tasks requiring sub-mm precision, to demonstrate the robustness of eFlesh in robot policy learning, trained with <a href="https://visuoskin.github.io" target="_blank">Visuo-Skin</a></p>
+            <p>Autonomous tasks requiring sub-mm precision, demonstrates the robustness of eFlesh in robot policy learning. These policies are trained using <a href="https://visuoskin.github.io" target="_blank">Visuo-Skin</a></p>
           </div>
         </div>
       </div>
@@ -353,7 +353,7 @@
 
     <div class="columns is-centered">
       <div class="column is-full">
-        <h2 class="title is-3">eFlesh Characterization and Experimental Results</h2>
+        <h2 class="title is-3">Characterization</h2>
       </div>
     </div>
     
@@ -363,6 +363,12 @@
         <div class="content">
           <img src="./static/images/graphics-3-1.png" alt="Sensor Characterization" style="width: 100%;" />
         </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Experimental Results</h2>
       </div>
     </div>
     
@@ -378,18 +384,24 @@
 </section>
 
 
-<!-- <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <p>
+      If you find eFlesh useful for your work, please cite as:
+    </p>
+    <pre><code>@article{pattabiraman2025eflesh,
+      title={eFlesh: Highly customizable Magnetic Touch Sensing using Cut-Cell Microstructures}, 
+      author={Venkatesh Pattabiraman and Zizhou Huang and Daniele Panozzo and Denis Zorin and Lerrel Pinto and Raunaq Bhirangi},
+      year={2025},
+      eprint={2506.09994},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.09994}, 
 }</code></pre>
   </div>
 </section>
- -->
+
 
 <footer class="footer">
   <div class="container">
@@ -409,13 +421,8 @@
             This website is licensed under a <a rel="license"
                                                 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            You are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website
           </p>
         </div>
       </div>
